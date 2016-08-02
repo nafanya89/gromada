@@ -1,0 +1,50 @@
+/* ========================================================
+                          Varribles
+======================================================== */
+
+/*--------------------- Colors (basic) ------------------*/
+$c-light: #FFF;
+$c-dark: #333;
+$color-border: #dadada;
+
+/* ---------------- Colors (special palette) ----------- */
+$c-cadet-blue: #5CA4A9;
+$c-cambridge-blue: #9BC1BC;
+$c-blond: #F4F1BB;
+$c-terra-cotta: #ED6A5A;
+$c-platinum: #E6EBE0;
+
+//ADDITON => Colors picked from coolors.co generator!
+
+/*------------------------- Fonts ----------------------*/
+$f-roboto: 'Roboto Regular';
+
+/*----------------------- Font sizes -------------------*/
+$f-small: 12px;
+$f-normal: 14px;
+$f-large: 24px;
+
+/*----------------------- Transitions ------------------*/
+$t-fast: .2s ease;
+$t-normal: .3s ease;
+$t-long: .4s ease;
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//~~~~~~~~~~~~~~~~~~~ DOCUMENTATION ~~~~~~~~~~~~~~~~~~~~~//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+/*
+                    c- = color
+                    f- = font
+                    t- = transition
+*/
+
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}

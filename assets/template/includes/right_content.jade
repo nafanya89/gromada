@@ -1,0 +1,29 @@
+aside.right_content#aside1
+  //nav.clearfix
+  //  ul.clearfix
+  //    li
+  //      a(href="#") Головна
+  //    li
+  //      a(href="#") Статті
+  //    li
+  //      a(href="#") Блоги
+  //    li
+  //      a(href="#") Рейтинги
+  //    li
+  //      a(href="#") Про нас
+  //  a#pull(href="#") Menu
+  nav.navbar.navbar-default
+    .navbar-header
+      button(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false").navbar-toggle.collapsed
+        span Va
+      a(href="#").navbar-brand Nn
+    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+      ul.nav.navbar-nav
+        li.active
+          a(href="#") Головна
+        li
+          a(href="#") Блоги
+  - for (var i=0; i<8; i++)
+    .logo
+      svg.navigation-prev
+        use(xlink:href="img/svg-sprites/sprite.svg#icon-logo")
