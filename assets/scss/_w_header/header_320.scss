@@ -1,9 +1,4 @@
 @media #{$iPhone} {
-  .right_content {
-    float: right;
-    width: calc(75% - 2px);
-    border-right: 1px solid $color-border;
 
-  }
 
 } //END MEDIA

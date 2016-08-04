@@ -2,13 +2,23 @@
                        Fonts paths
 ======================================================== */
 
-/*---------------------- Roboto -------------------------*/
+/*---------------------- Pt sans -------------------------*/
 @font-face {
-    font-family: 'Roboto Regular';
-    src: local('Roboto Regular'), local('Roboto Regular'),
-        url(../fonts/RobotoRegular.eot) format('eot'),
-        url(../fonts/RobotoRegular.woff) format('woff'),
-        url(../fonts/RobotoRegular.ttf) format('truetype');
-    font-weight: 100;
-    font-style: normal;
+  font-family: 'PT Sans Regular';
+  src: local('PT Sans Regular'), local('PT Sans Regular'),
+  url(../fonts/PTSansRegular.eot) format('eot'),
+  url(../fonts/PTSansRegular.woff) format('woff'),
+  url(../fonts/PTSansRegular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: local('PT Sans Bold'), local('PT Sans Bold'),
+  url(../fonts/PTSansBold.eot) format('eot'),
+  url(../fonts/PTSansBold.woff) format('woff'),
+  url(../fonts/PTSansBold.ttf) format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
