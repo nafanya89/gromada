@@ -7,6 +7,8 @@ $c-light: #FFF;
 $c-dark: #333;
 $color-border: #dadada;
 $fon-blog: #f2f2f2;
+$fon-footer: #f0f0f0;
+$fon-social: #444444;
 
 /* ---------------- Colors (special palette) ----------- */
 $c-blue: #1575b8;
@@ -18,7 +20,6 @@ $c-platinum: #E6EBE0;
 //ADDITON => Colors picked from coolors.co generator!
 
 /*------------------------- Fonts ----------------------*/
-$f-roboto: 'Roboto Regular';
 $f-pt_sans: 'PT Sans Regular';
 $f-pt_sans_bold: 'PT Sans Bold';
 
@@ -50,4 +51,7 @@ $t-long: .4s ease;
 .stop {
   position: relative;
   z-index: 101;
+}
+body {
+  position: relative;
 }
