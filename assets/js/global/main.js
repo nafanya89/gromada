@@ -1,5 +1,17 @@
 $(document).ready(function () {
+          ///////////////////////
+          /*  Slick content   */
+          //////////////////////
   $(".right_content").stick_in_parent({
+  });
+          /////////////////////
+          /*    UP-arrow    */
+          ///////////////////
+  $(".icon-up-arrow").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("body").offset().top
+    }, 1500);
   });
 });
 (function(d, s, id) {

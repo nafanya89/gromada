@@ -12,27 +12,13 @@
   }
   .content {
     height: auto;
-    .news_content {
-      width: 25%;
-      float: left;
-      border-right: 1px solid $color-border;
-      .logo {
-        width: 100%;
-        height: 150px;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
+
     .right_content {
       height: auto;
       width: calc(75%);
       float: right;
       nav {
         height: 150px;
-        border-bottom: 1px solid red;
-        border-top: 1px solid red;
       }
       .slider {
         height: 400px;
