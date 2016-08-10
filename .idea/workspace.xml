@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cec4797-406f-4828-9e32-656264a9ed82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/main.js" afterPath="$PROJECT_DIR$/assets/js/global/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/right_content.jade" afterPath="$PROJECT_DIR$/assets/template/includes/right_content.jade" />
     </list>
     <ignored path="Gromada.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +58,8 @@
       <file leaf-file-name="header_320.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/_w_header/header_320.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#51#326#0" expanded="false" />
               </folding>
@@ -86,11 +80,11 @@
       <file leaf-file-name="main_320.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
-                <element signature="e#277#2849#0" expanded="false" />
-                <element signature="e#2861#2887#0" expanded="false" />
+                <element signature="e#276#2848#0" expanded="false" />
+                <element signature="e#2860#2886#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,8 +104,8 @@
         <option value="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" />
         <option value="$PROJECT_DIR$/assets/template/includes/right_content.jade" />
         <option value="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" />
         <option value="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" />
+        <option value="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" />
       </list>
     </option>
   </component>
@@ -321,16 +315,16 @@
       <workItem from="1470732713548" duration="18000" />
       <workItem from="1470732748241" duration="5392000" />
       <workItem from="1470747375768" duration="39000" />
-      <workItem from="1470810607138" duration="3869000" />
+      <workItem from="1470810607138" duration="4415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9318000" />
+    <option name="totallyTimeSpent" value="9864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-264" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26640624" sideWeight="0.49101123" order="0" side_tool="false" content_ui="combo" />
@@ -338,7 +332,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26640624" sideWeight="0.50898874" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26640624" sideWeight="0.50898874" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -390,8 +384,8 @@
         <state relative-caret-position="544">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#277#2849#0" expanded="false" />
-            <element signature="e#2861#2887#0" expanded="false" />
+            <element signature="e#276#2848#0" expanded="false" />
+            <element signature="e#2860#2886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -419,8 +413,8 @@
         <state relative-caret-position="544">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#277#2849#0" expanded="false" />
-            <element signature="e#2861#2887#0" expanded="false" />
+            <element signature="e#276#2848#0" expanded="false" />
+            <element signature="e#2860#2886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -500,14 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/settings/s_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/template/includes/left_menu.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -526,19 +512,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#277#2849#0" expanded="false" />
-            <element signature="e#2861#2887#0" expanded="false" />
+            <element signature="e#276#2848#0" expanded="false" />
+            <element signature="e#2860#2886#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/settings/s_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_w_header/header_320.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#51#326#0" expanded="false" />
           </folding>
