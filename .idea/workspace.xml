@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6cec4797-406f-4828-9e32-656264a9ed82" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/main.js" afterPath="$PROJECT_DIR$/assets/js/global/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/collector.scss" afterPath="$PROJECT_DIR$/assets/scss/collector.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/footer.jade" afterPath="$PROJECT_DIR$/assets/template/includes/footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/right_content.jade" afterPath="$PROJECT_DIR$/assets/template/includes/right_content.jade" />
     </list>
     <ignored path="Gromada.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,12 +271,12 @@
       <workItem from="1470747375768" duration="39000" />
       <workItem from="1470810607138" duration="4415000" />
       <workItem from="1470836605095" duration="305000" />
-      <workItem from="1470898506297" duration="2264000" />
+      <workItem from="1470898506297" duration="2567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12433000" />
+    <option name="totallyTimeSpent" value="12736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-264" width="1296" height="1000" extended-state="6" />
