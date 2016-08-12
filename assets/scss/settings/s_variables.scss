@@ -1,0 +1,58 @@
+/* ========================================================
+                          Varribles
+======================================================== */
+
+/*--------------------- Colors (basic) ------------------*/
+$c-light: #FFF;
+$c-dark: #444;
+$color-border: #dadada;
+$fon-blog: #f2f2f2;
+$fon-footer: #f0f0f0;
+$fon-social: #444444;
+
+/* ---------------- Colors (special palette) ----------- */
+$c-blue: #1575b8;
+$c-cambridge-blue: #9BC1BC;
+$c-blond: #F4F1BB;
+$c-terra-cotta: #ED6A5A;
+$c-platinum: #E6EBE0;
+$c-light-gray: #858585;
+
+//ADDITON => Colors picked from coolors.co generator!
+
+/*------------------------- Fonts ----------------------*/
+$f-pt_sans: 'PT Sans Regular';
+$f-pt_sans_bold: 'PT Sans Bold';
+
+/*----------------------- Font sizes -------------------*/
+$f-small: 12px;
+$f-normal: 14px;
+$f-large: 30px;
+
+/*----------------------- Transitions ------------------*/
+$t-fast: .2s ease;
+$t-normal: .3s ease;
+$t-long: .4s ease;
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//~~~~~~~~~~~~~~~~~~~ DOCUMENTATION ~~~~~~~~~~~~~~~~~~~~~//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+/*
+                    c- = color
+                    f- = font
+                    t- = transition
+*/
+
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
+body {
+  position: relative;
+}

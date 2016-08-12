@@ -1,0 +1,35 @@
+.news_content
+    .logo
+        svg.navigation-prev
+            use(xlink:href="img/svg-sprites/sprite.svg#icon-logo")
+    - for (i=0; i<22; i++)
+        .news-item-wrap
+            a(href="#")
+                .news-item
+                    .news-item__logo(style="background-image: url('img/pravda.png')")
+                    .news-item__date 07.02.2016
+                    .news-item__new-title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+            //RELATED NEWS
+            .news-item__related-news
+                .news-item__related-items
+                        //ITEM 1
+                        .news-item__related-item
+                            .news-item__logo(style="background-image: url('img/galka.png')")
+                            .news-item__date 07.02.2016
+                            .news-item__new-title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                        //ITEM 2    
+                        .news-item__related-item
+                            .news-item__logo(style="background-image: url('img/koresp.png')")
+                            .news-item__date 07.02.2016
+                            .news-item__new-title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                        //ITEM 3
+                        .news-item__related-item
+                            .news-item__logo(style="background-image: url('img/reporter.png')")
+                            .news-item__date 07.02.2016
+                            .news-item__new-title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+
+                .news-item__related-news-button 
+                    .news-item__button-text Схожі статті 
+                    .news-item__plus
+                        span 
+                        span

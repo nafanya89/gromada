@@ -1,0 +1,157 @@
+.right_content
+  nav Тут буде хедер
+  .slider-wrap.cf
+      //custom nav
+      .customNavigation
+          svg.customPrevBtn
+            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+          svg.customNextBtn
+            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+
+      .slider.owl-carousel
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+
+      //slider content
+      .slider-right-side
+          .slider-title Останні статті
+              .slider-line.line
+          .slider-content.owl-carousel
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
+                              
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
+
+  .blogs
+    .article
+      .row
+        .col-lg-4
+          h2 Блоги
+          .line
+    .container-fluid
+      .row
+        .col-lg-4
+          include one_blog
+        .col-lg-4
+          include one_blog
+        //.col-lg-4
+        //  iframe(src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftaras.sluchyk%2Fposts%2F1206907142682546&width=500" width="100%" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true")
+        .col-lg-4
+          include one_blog
+      .row.two_line
+        .col-lg-4
+          include one_blog
+        .col-lg-4
+          include one_blog
+        .col-lg-4
+          include one_blog
+  .other_article
+    .row
+      .col-lg-4
+        .title
+          h2 Громада
+          //.line
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/mykola.gavryliak/posts/10208514493772612" data-width="auto" data-show-text="true")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/ukraine.live.news/posts/517048675166242" data-width="auto" data-show-text="false")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/prykarpattya.online/posts/1132652213439623" data-width="auto" data-show-text="false")
+      .col-lg-4
+        .title
+          h2 Політики
+          //.line
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/mykola.gavryliak/posts/10208514493772612" data-width="auto" data-show-text="false")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/ukraine.live.news/posts/517048675166242" data-width="auto" data-show-text="false")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/prykarpattya.online/posts/1132652213439623" data-width="auto" data-show-text="false")
+      .col-lg-4
+        .title
+          h2 Журналісти
+          //.line_longer
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/vasyl.bodnaruk1/posts/1261741460525407" data-width="auto" data-show-text="false")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/ukraine.live.news/posts/518107331727043" data-width="auto" data-show-text="true")
+        .post
+          .one_post
+            .fb-post(data-href="https://www.facebook.com/prykarpattya.online/posts/1132652213439623" data-width="auto" data-show-text="false")
+  footer
+    .gray_element
+      .col-lg-4
+        .contain
+          p © 2016 «Громада». Усі права застережені.
+      .col-lg-4
+        .cont
+          .vk
+            a(href="") Вк
+            .line
+          .fb
+            a(href="") Fb
+            .line
+      .col-lg-4
+        .arrow
+          a(href="").icon-up-arrow
+            svg
+              use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+    .white_element
+      .col-lg-4
+        .yls_logo
+          a(href="yleaf.co") Made by
+            svg
+              use(xlink:href="img/svg-sprites/sprite.svg#icon-Yls")
+      .col-lg-8
+        .menu_footer
+          nav
+            a(href="") Головна
+              .line
+            a(href="") Статті
+              .line
+            a(href="") Блоги
+              .line
+            a(href="") Рейтинги
+              .line
+            a(href="") Рейтинги
+              .line
+            a(href="") Про нас
+              .line
+
+.clear
