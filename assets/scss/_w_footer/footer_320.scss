@@ -56,7 +56,7 @@
         }
         .arrow {
           width: 100%;
-          height:100%;
+          height: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -79,13 +79,13 @@
         height: 100%;
         .yls_logo {
           width: 100%;
-          height:100%;
+          height: 100%;
           display: flex;
           //justify-content: center;
           align-items: center;
           padding-left: 40px;
           a {
-            color:$c-dark;
+            color: $c-dark;
             position: relative;
             transition: $t-fast;
             svg {
@@ -109,42 +109,43 @@
       }
       .col-lg-8 {
         height: 100%;
-       .menu_footer {
-         height: 100%;
-         nav {
-           width: 100%;
-           height:100%;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           a {
+        .menu_footer {
+          height: 100%;
+          nav {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
               font-size: $f-normal;
-             font-family: $f-pt_sans;
-             color: $c-light-gray;
-             margin: 0 25px;
-             transition: $t-fast;
-             .line {
-               height: 1px;
-               width: 150%;
-               margin-left: -25%;
-               background: $c-light-gray;
-               transition: $t-fast;
-             }
-             &:hover {
-               text-decoration: none;
-               color: $c-blue;
-               .line {
-                 transform: rotate(20deg) translateY(-10px) ;
-                 position: relative;
-                 background: $c-blue;
-               }
-             }
-           }
+              font-family: $f-pt_sans;
+              color: $c-light-gray;
+              margin: 0 25px;
+              transition: $t-fast;
+              .line {
+                height: 1px;
+                width: 150%;
+                margin-left: -25%;
+                background: $c-light-gray;
+                transition: $t-fast;
+              }
+              &:hover {
+                text-decoration: none;
+                color: $c-blue;
+                .line {
+                  transform: rotate(20deg) translateY(-10px);
+                  position: relative;
+                  background: $c-blue;
+                }
+              }
+            }
 
-
-         }
-       }
+          }
+        }
       }
     }
   }
-} //END MEDIA
+}
+
+//END MEDIA

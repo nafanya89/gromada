@@ -1,5 +1,27 @@
 .right_content
-  nav Тут буде хедер
+  .right_header
+    .row
+      .col-lg-5
+        .search
+          input(type="search" id="search" placeholder="Пошук")
+          button
+            svg
+              use(xlink:href="img/svg-sprites/sprite.svg#icon-search")
+      .col-lg-7
+        .menu_header
+          nav
+            a(href="") Головна
+              .line
+            a(href="") Статті
+              .line
+            a(href="") Блоги
+              .line
+            a(href="") Рейтинги
+              .line
+            a(href="") Рейтинги
+              .line
+            a(href="") Про нас
+              .line
   .slider
     .slider-wrap.cf
       .customNavigation
@@ -7,7 +29,24 @@
         .customNextBtn
       .slider.owl-carousel
         .item
-          .slider__image
+          .slider__image(style="background-image: url('img/1.jpg')")
+        .item
+          .slider__image(style="background-image: url('img/1.jpg')")
+        .item
+          .slider__image(style="background-image: url('img/1.jpg')")
+      .slider-content.owl-carousel
+        .item
+          .slider-content__wrap
+            .slider-content__title Slide 1
+            .slider-content__text Hello Thesdfsdfsdfre
+        .item
+          .slider-content__wrap
+            .slider-content__title Slide 2
+            .slider-content__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, voluptate quod non itaque praesentium quia eos esse accusamus quas facil
+        .item
+          .slider-content__wrap
+            .slider-content__title Slide 1
+            .slider-content__text Hello Thesdfsdfsdfre
   .blogs
     .article
       .row
