@@ -15,4 +15,111 @@
     }
   }
 
+  /*
+          News item
+                           */
+  .news-item-wrap {
+      transition: $t-fast;
+  }
+  .news-item {
+      width: 100%;
+      padding: 10px 20px;
+  }
+
+  .news-item__logo {
+      width: 100%;
+      height: 20px;
+      background-size: contain;
+      background-position: left center;
+      background-repeat: no-repeat;
+  }
+
+  .news-item__date {
+      font-family: $f-pt_sans;
+      padding: 5px 0;
+      opacity: .5;
+  }
+
+  .news-item__new-title {
+      font-family: $f-pt_sans_bold;
+  }
+
+
+
+  //RELATED NEWS
+  .news-item__related-news {
+      padding: 0 20px 20px 20px;
+  }
+
+  .news-item__related-items {
+    display: none;
+  }
+
+  .news-item__related-item {
+      padding: 10px 20px;
+      .news-item__new-title {
+          font-family: $f-pt_sans;
+      }
+  }
+
+
+  .news-item__related-news-button {
+      text-transform: uppercase;
+      color: $c-blue;
+      font-size: $f-small;
+      cursor: pointer;
+  }
+  .news-item__button-text {
+      display: inline-block;
+  }
+
+  .news-item__plus {
+      position: relative;
+      display: inline-block;
+      height: 10px;
+      width: 20px;
+      margin-left: 5px;
+
+      transition: $t-fast;
+  }
+  .news-item__plus span:first-child,
+  .news-item__plus span:last-child {
+      position: absolute;
+      top: 5px;
+      height: 1px;
+      width: 10px;
+      background: $c-blue;
+      transition: $t-fast;
+  }
+
+  .news-item__plus span:last-child {
+      right: 0;
+  }
+
+  //HOVER
+  .news-item__related-news-button:hover {
+      .news-item__plus span:first-child {
+          transform: rotate(45deg);
+          width: 12px;
+      }
+      .news-item__plus span:last-child {
+           transform: rotate(-45deg);
+           width: 12px;
+      }
+  }
+
+  //ACTIVE GARMOSHKA
+  .news-item-wrap--active {
+      background: $fon-footer;
+      .news-item__related-news-button:hover {
+          .news-item__plus span:first-child {
+              transform: rotate(-45deg);
+              width: 12px;
+          }
+          .news-item__plus span:last-child {
+               transform: rotate(45deg);
+               width: 12px;
+          }
+      }
+  }
 } //END MEDIA

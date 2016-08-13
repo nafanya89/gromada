@@ -22,31 +22,55 @@
               .line
             a(href="") Про нас
               .line
-  .slider
-    .slider-wrap.cf
+  .slider-wrap.cf
+      //custom nav
       .customNavigation
-        .customPrevBtn
-        .customNextBtn
+          svg.customPrevBtn
+            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+          svg.customNextBtn
+            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+
       .slider.owl-carousel
-        .item
-          .slider__image(style="background-image: url('img/1.jpg')")
-        .item
-          .slider__image(style="background-image: url('img/1.jpg')")
-        .item
-          .slider__image(style="background-image: url('img/1.jpg')")
-      .slider-content.owl-carousel
-        .item
-          .slider-content__wrap
-            .slider-content__title Slide 1
-            .slider-content__text Hello Thesdfsdfsdfre
-        .item
-          .slider-content__wrap
-            .slider-content__title Slide 2
-            .slider-content__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, voluptate quod non itaque praesentium quia eos esse accusamus quas facil
-        .item
-          .slider-content__wrap
-            .slider-content__title Slide 1
-            .slider-content__text Hello Thesdfsdfsdfre
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+          .item
+              .slider__image(style="background-image: url('img/1.jpg')")
+
+      //slider content
+      .slider-right-side
+          .slider-title Останні статті
+              .slider-line.line
+          .slider-content.owl-carousel
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
+                              
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
+              .item
+                  .slider-content__wrap
+                      .slider-content__date 20.07.2017
+                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+                      a(href="#")
+                          .slider-content__button Прочитати статтю
+                              .news-item__plus
+                                  span 
+                                  span
   .blogs
     .article
       .row
@@ -151,4 +175,3 @@
             a(href="") Про нас
               .line
 .clear
-

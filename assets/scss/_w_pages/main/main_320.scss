@@ -287,4 +287,155 @@
       clear: both;
     }
   }
+
+  //slider
+      /*CLEARFIX*/
+    .cf:before,
+    .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    .cf:after {
+        clear: both;
+    }
+
+    /**
+     * For IE 6/7 only
+     * Include this rule to trigger hasLayout and contain floats.
+     */
+    .cf {
+        *zoom: 1;
+    }
+
+    /*SLIDER*/
+    .slider-wrap {
+        position: relative;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .slider-line {
+        position: relative;
+        margin: auto;
+        height: 2px;
+        width: 200px;
+        background: #333;
+    }
+
+    .owl-nav {
+        position: absolute;
+        right: -40px;
+        top: 0;
+    }
+
+
+    .slider {
+        float: left;
+        width: 70%;
+        margin: 0;
+    }
+    .slider__image  {
+        width: auto;
+        height: 400px;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+    /*SLIDER CONTENT*/
+    .slider-right-side {
+        position: relative;
+        display: inline-block;
+        width: calc(30% - 20px);
+        padding: 10px;
+    }
+
+    .slider-title {
+        font-family: $f-pt_sans_bold;
+        font-size: $f-large;
+        margin: 40px auto;
+        text-align: center;
+
+    }
+    .slider-content {
+        text-align: left;
+        margin-left: 20px;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+
+    .slider-content__title {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .slider-content__wrap {
+        position: relative;
+        left: 0;
+    }
+
+    /*CUTOM NAV*/
+    .customNavigation {
+        position: absolute;
+        right: 20px;
+        bottom: 10%;
+        user-select: none;
+    }
+    .customPrevBtn,
+    .customNextBtn {
+        float: left;
+        width: 20px;
+        height: 20px;
+        fill: $c-blue;
+        margin: 0 10px;
+        cursor: pointer;
+        transition: $t-fast;
+    }
+    .customPrevBtn {
+        transform: rotate(180deg);
+    }
+
+    //CUSTOM NAV HOVER
+    .customPrevBtn:hover {
+        transform: rotate(180deg) scale(1.2);
+    }
+
+    .customNextBtn:hover {
+        transform: scale(1.2);
+    }
+
+    //DATE
+    .slider-content__date {
+        opacity: .5;
+        padding: 5px 0;
+    }
+
+    //TEXT
+    .slider-content__text  {
+        font-family: $f-pt_sans_bold;
+    }
+    //BUTTON
+    .slider-content__button {
+        text-transform: uppercase;
+        font-size: $f-small;
+        color: $c-blue;
+        padding: 10px 0;
+    }
+
+    //VIEW MORE HOVER
+    .slider-content__button:hover {
+        .news-item__plus span:first-child {
+            transform: rotate(-90deg);
+            left: 4px;
+            width: 11px;
+        }
+        .news-item__plus span:last-child {
+            right: 4px;
+            width: 13px;
+        }
+    }
 } //END MEDIA
