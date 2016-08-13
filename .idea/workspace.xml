@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cec4797-406f-4828-9e32-656264a9ed82" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/firtka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/galka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/koresp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/kurs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pravda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/reporter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/global/garmoshka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Yellow.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Yellow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gromada_node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gromada_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/Yls.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/Yls.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/logo.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/quote.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/quote.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/right-arrow.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/right-arrow.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/search.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/search.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-images/logo-mobile.svg" afterPath="$PROJECT_DIR$/assets/img/svg-images/logo-mobile.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/main.js" afterPath="$PROJECT_DIR$/assets/js/global/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/menu.js" afterPath="$PROJECT_DIR$/assets/js/global/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/libs/owl.carousel.min.js" afterPath="$PROJECT_DIR$/assets/js/libs/owl.carousel.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/libs/sticky-kit.min.js" afterPath="$PROJECT_DIR$/assets/js/libs/sticky-kit.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/varriables.js" afterPath="$PROJECT_DIR$/assets/js/varriables.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/collector.scss" afterPath="$PROJECT_DIR$/assets/scss/collector.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/documentation.txt" afterPath="$PROJECT_DIR$/assets/scss/documentation.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/includes/grid.css" afterPath="$PROJECT_DIR$/assets/scss/includes/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/includes/owl.carousel.css" afterPath="$PROJECT_DIR$/assets/scss/includes/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_fonts.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_global.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_mixins.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/footer.jade" afterPath="$PROJECT_DIR$/assets/template/includes/footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/head.jade" afterPath="$PROJECT_DIR$/assets/template/includes/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/left_menu.jade" afterPath="$PROJECT_DIR$/assets/template/includes/left_menu.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/one_blog.jade" afterPath="$PROJECT_DIR$/assets/template/includes/one_blog.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/right_content.jade" afterPath="$PROJECT_DIR$/assets/template/includes/right_content.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/main.jade" afterPath="$PROJECT_DIR$/assets/template/main.jade" />
     </list>
     <ignored path="Gromada.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -347,15 +307,15 @@
       <workItem from="1470905350355" duration="7146000" />
       <workItem from="1470988388969" duration="3584000" />
       <workItem from="1471010549204" duration="576000" />
-      <workItem from="1471085903671" duration="153000" />
+      <workItem from="1471085903671" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24195000" />
+    <option name="totallyTimeSpent" value="24453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
