@@ -2,12 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cec4797-406f-4828-9e32-656264a9ed82" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/firtka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/galka.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/koresp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/kurs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/pravda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/reporter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/tf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/global/garmoshka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Yellow.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Yellow.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gromada_node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gromada_node_modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/Yls.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/Yls.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/logo.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/quote.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/quote.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/right-arrow.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/right-arrow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-icons/search.svg" afterPath="$PROJECT_DIR$/assets/img/svg-icons/search.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/svg-images/logo-mobile.svg" afterPath="$PROJECT_DIR$/assets/img/svg-images/logo-mobile.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/main.js" afterPath="$PROJECT_DIR$/assets/js/global/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/global/menu.js" afterPath="$PROJECT_DIR$/assets/js/global/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/libs/owl.carousel.min.js" afterPath="$PROJECT_DIR$/assets/js/libs/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/libs/sticky-kit.min.js" afterPath="$PROJECT_DIR$/assets/js/libs/sticky-kit.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/varriables.js" afterPath="$PROJECT_DIR$/assets/js/varriables.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_header/header_320.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" afterPath="$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/collector.scss" afterPath="$PROJECT_DIR$/assets/scss/collector.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/documentation.txt" afterPath="$PROJECT_DIR$/assets/scss/documentation.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/includes/grid.css" afterPath="$PROJECT_DIR$/assets/scss/includes/grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/includes/owl.carousel.css" afterPath="$PROJECT_DIR$/assets/scss/includes/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_fonts.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_global.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_mixins.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" afterPath="$PROJECT_DIR$/assets/scss/settings/s_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/footer.jade" afterPath="$PROJECT_DIR$/assets/template/includes/footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/head.jade" afterPath="$PROJECT_DIR$/assets/template/includes/head.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/left_menu.jade" afterPath="$PROJECT_DIR$/assets/template/includes/left_menu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/one_blog.jade" afterPath="$PROJECT_DIR$/assets/template/includes/one_blog.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/includes/right_content.jade" afterPath="$PROJECT_DIR$/assets/template/includes/right_content.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template/main.jade" afterPath="$PROJECT_DIR$/assets/template/main.jade" />
     </list>
     <ignored path="Gromada.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_320.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_320.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            <state relative-caret-position="17">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="e#605#947#0" expanded="false" />
                 <element signature="e#965#1317#0" expanded="false" />
@@ -53,6 +88,16 @@
                 <element signature="e#5832#6467#0" expanded="false" />
                 <element signature="e#6485#6511#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,7 +125,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/global/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-532">
+            <state relative-caret-position="0">
               <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
@@ -90,7 +135,7 @@
       <file leaf-file-name="s_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/settings/s_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="306">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
@@ -131,10 +176,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-264" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,22 +237,8 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gromada" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gromada" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,21 +253,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svg-icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,23 +346,25 @@
       <workItem from="1470898506297" duration="2567000" />
       <workItem from="1470905350355" duration="7146000" />
       <workItem from="1470988388969" duration="3584000" />
+      <workItem from="1471010549204" duration="576000" />
+      <workItem from="1471085903671" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23466000" />
+    <option name="totallyTimeSpent" value="24195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-264" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26953125" sideWeight="0.4730337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693997" sideWeight="0.46214512" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26953125" sideWeight="0.5269663" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2681388" sideWeight="0.5378549" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -368,6 +393,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_w_footer/footer_320.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="9" selection-start-line="111" selection-start-column="8" selection-end-line="144" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/global/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/settings/s_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/template/includes/right_content.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -688,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2397">
@@ -741,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/global/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
+        <state relative-caret-position="0">
           <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
@@ -749,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/settings/s_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
+        <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
@@ -765,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_w_pages/main/main_320.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="17">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#605#947#0" expanded="false" />
             <element signature="e#965#1317#0" expanded="false" />
@@ -775,6 +817,14 @@
             <element signature="e#5832#6467#0" expanded="false" />
             <element signature="e#6485#6511#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
