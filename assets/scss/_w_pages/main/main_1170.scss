@@ -1,21 +1,11 @@
 @media #{$screen} {
-  .right_content {
-    //nav {
-    //  border-bottom: 0;
-    //}
-    //nav ul {
-    //  padding: 0;
-    //  margin: 0 auto;
-    //  width: 600px;
-    //  height: 40px;
-    //}
-    //nav a#pull {
-    //  display: block;
-    //  background-color: #283744;
-    //  width: 100%;
-    //  position: relative;
-    //}
-
+  .content {
+    .right_content {
+      .right_header {
+        .menu_on_laptop {
+          display: block;
+        }
+      }
+    }
   }
-
 } //END MEDIA

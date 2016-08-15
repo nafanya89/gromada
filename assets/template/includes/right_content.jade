@@ -1,76 +1,74 @@
 .right_content
   .right_header
-    .row
-      .col-lg-5
-        .search
-          input(type="search" id="search" placeholder="Пошук")
-          button
-            svg
-              use(xlink:href="img/svg-sprites/sprite.svg#icon-search")
-      .col-lg-7
-        .menu_header
-          nav
-            a(href="") Головна
-              .line
-            a(href="") Статті
-              .line
-            a(href="") Блоги
-              .line
-            a(href="") Рейтинги
-              .line
-            a(href="") Рейтинги
-              .line
-            a(href="") Про нас
-              .line
+    .menu_on_laptop
+      .row
+        .col-lg-4
+          .search
+            input(type="search" id="search" placeholder="Пошук")
+            button
+              svg
+                use(xlink:href="img/svg-sprites/sprite.svg#icon-search")
+        .col-lg-8
+          .menu_header
+            nav
+              a(href="") Головна
+                .line
+              a(href="") Статті
+                .line
+              a(href="") Блоги
+                .line
+              a(href="") Рейтинги
+                .line
+              a(href="") Рейтинги
+                .line
+              a(href="") Про нас
+                .line
   .slider-wrap.cf
-      //custom nav
-      .customNavigation
-          svg.customPrevBtn
-            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
-          svg.customNextBtn
-            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
-
-      .slider.owl-carousel
-          .item
-              .slider__image(style="background-image: url('img/1.jpg')")
-          .item
-              .slider__image(style="background-image: url('img/1.jpg')")
-          .item
-              .slider__image(style="background-image: url('img/1.jpg')")
-
-      //slider content
-      .slider-right-side
-          .slider-title Останні статті
-              .slider-line.line
-          .slider-content.owl-carousel
-              .item
-                  .slider-content__wrap
-                      .slider-content__date 20.07.2017
-                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
-                      a(href="#")
-                          .slider-content__button Прочитати статтю
-                              .news-item__plus
-                                  span 
-                                  span
-                              
-              .item
-                  .slider-content__wrap
-                      .slider-content__date 20.07.2017
-                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
-                      a(href="#")
-                          .slider-content__button Прочитати статтю
-                              .news-item__plus
-                                  span 
-                                  span
-              .item
-                  .slider-content__wrap
-                      .slider-content__date 20.07.2017
-                      .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
-                      a(href="#")
-                          .slider-content__button Прочитати статтю
-                              .news-item__plus
-                                  span 
-                                  span
+    //custom nav
+    .customNavigation
+      svg.customPrevBtn
+        use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+      svg.customNextBtn
+        use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+    .slider.owl-carousel
+      .item
+        .slider__image(style="background-image: url('img/1.jpg')")
+      .item
+        .slider__image(style="background-image: url('img/1.jpg')")
+      .item
+        .slider__image(style="background-image: url('img/1.jpg')")
+    //slider content
+    .slider-right-side
+      .slider-title Останні статті
+        .slider-line.line
+      .slider-content.owl-carousel
+        .item
+          .slider-content__wrap
+            .slider-content__date 20.07.2017
+            .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+            a(href="#")
+              .slider-content__button Прочитати статтю
+                .news-item__plus
+                  span
+                  span
+        .item
+          .slider-content__wrap
+            .slider-content__date 20.07.2017
+            .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+            a(href="#")
+              .slider-content__button Прочитати статтю
+                .news-item__plus
+                  span
+                  span
+        .item
+          .slider-content__wrap
+            .slider-content__date 20.07.2017
+            .slider-content__text Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської патріаршої прощі.
+            a(href="#")
+              .slider-content__button Прочитати статтю
+                .news-item__plus
+                  span
+                  span
   .blogs
     .article
       .row
@@ -99,7 +97,7 @@
       .col-lg-4
         .title
           h2 Громада
-          //.line
+            .line
         .post
           .one_post
             .fb-post(data-href="https://www.facebook.com/mykola.gavryliak/posts/10208514493772612" data-width="auto" data-show-text="true")
@@ -112,7 +110,7 @@
       .col-lg-4
         .title
           h2 Політики
-          //.line
+            .line
         .post
           .one_post
             .fb-post(data-href="https://www.facebook.com/mykola.gavryliak/posts/10208514493772612" data-width="auto" data-show-text="false")
@@ -125,7 +123,7 @@
       .col-lg-4
         .title
           h2 Журналісти
-          //.line_longer
+            .line_longer
         .post
           .one_post
             .fb-post(data-href="https://www.facebook.com/vasyl.bodnaruk1/posts/1261741460525407" data-width="auto" data-show-text="false")

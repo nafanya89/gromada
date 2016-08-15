@@ -2,7 +2,7 @@ $(document).ready(function () {
   ///////////////////////
   /*  Slick content   */
   //////////////////////
-  $(".right_content").stick_in_parent({});
+      // $(".right_content").stick_in_parent({});
   /////////////////////
   /*    UP-arrow    */
   ///////////////////
