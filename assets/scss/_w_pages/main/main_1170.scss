@@ -1,0 +1,21 @@
+@media #{$screen} {
+  .content {
+    .right_content {
+      width: 70%;
+      float: right;
+    }
+  }
+
+  /*SLIDER*/
+  .slider-wrap {
+    .slider {
+      width: 70%;
+    }
+    /*SLIDER CONTENT*/
+    .slider-right-side {
+      width: calc(30% - 20px);
+    }
+  }
+
+
+} //END MEDIA

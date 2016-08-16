@@ -1,0 +1,42 @@
+                             FOLDERS
+
+ /* ========================================================
+                             INCLUDES
+ ======================================================== */
+ The folder where placing grids, other foreign styles...
+
+ /* ========================================================
+                               GLOBAL
+ ======================================================== */
+ The folder where placing all global styles and variables.
+You can name the folder settings ;)
+
+/* ========================================================
+                              _w_FOLDER
+======================================================== */
+Working folders. Most useful scss folders in project.
+
+
+
+
+
+
+
+                                         COMMENTS
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+//~~~~~~~~~~~~~~~~~~~ DOCUMENTATION ~~~~~~~~~~~~~~~~~~~~~//     - documentation
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
+
+/* ========================================================
+                        Title Here                               - global titles
+======================================================== */
+
+/* - - - - - - - - - Sub title here - - - - - - - - - - - */
+//~~~~~~~~~~~~~~~~~~ Sub title here ~~~~~~~~~~~~~~~~~~~~~//     - subtitles
+
+//USAGE => - describe how to use technology
+
+//ADDITON => - more information about thing
+
+//Text - mini describe

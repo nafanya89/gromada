@@ -1,0 +1,110 @@
+@media #{$iPhone} {
+  //TITLE
+  .news-title {
+    font-family: $f-pt_sans_bold;
+    font-size: $f-large;
+    border-bottom: 2px solid $c-dark;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+
+  //SORT
+  .sort-wrap {
+
+  }
+  .sort-text,
+  .sort-el,
+  .sort-el__input,
+  .sort-el__text {
+    display: inline-block;
+  }
+
+  .sort-el__text{
+    opacity: 0.5;
+  }
+
+  .sort-el {
+    padding: 0 10px;
+  }
+
+  .sort-text {
+    padding: 0 10px;
+  }
+
+
+
+  // NEWS
+  .news-content {
+    margin: 50px auto 0 auto;
+  }
+  .news {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+  }
+  .news__image {
+    width: 99%;
+    margin: auto;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+  }
+  .news__date {
+    opacity: .5;
+  }
+  .news__title {
+    font-family: $f-pt_sans_bold;
+    padding: 5px 0;
+  }
+  .news__button {
+    text-transform: uppercase;
+    font-size: $f-small;
+    color: $c-blue;
+    padding: 10px 0;
+    display: inline-block;
+  }
+  .news__info {
+    padding: 10px;
+  }
+    //MORE HOVER
+  .news__button:hover {
+    .news-item__plus span:first-child {
+      transform: rotate(-90deg);
+      left: 4px;
+      width: 11px;
+    }
+    .news-item__plus span:last-child {
+      right: 4px;
+      width: 13px;
+    }
+  }
+
+
+  //PAGINATION
+  .pagination {
+    margin: 0 50px;
+  }
+  .pagination a {
+    text-decoration: none;
+  }
+  .pagination__circle {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 10px;
+  }
+  .pagination__number {
+    padding: 5px;
+    font-family: $f-pt_sans_bold;
+  }
+
+  .pagination__circle.pagination__circle--active {
+    border-radius: 50px;
+    background: $c-blue;
+    .pagination__number {
+      color: $c-light;
+    }
+  }
+}

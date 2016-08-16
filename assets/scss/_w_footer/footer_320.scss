@@ -1,0 +1,77 @@
+@media #{$iPhone} {
+  .footer {
+
+  }
+
+
+  //TOP ELEMENTS
+  .footer__top-elements {
+    position: relative;
+    background: $fon-footer;
+    text-align: center;
+    padding: 25px 0 10px 0;
+  }
+  .arrow-up {
+    padding: 20px;
+  }
+  .arrow-up__icon {
+    width: 25px;
+    height: 20px;
+    transform: rotate(-90deg);
+    fill: $c-dark;
+  }
+  // social
+  .social-box {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .social {
+    display: inline-block;
+    font-size: $f-large;
+    font-family: $f-pt_sans_bold;
+    color: $c-dark;
+    opacity: 1;
+    padding: -0px 15px;
+    &:after {
+      bottom: 0;
+      height: 2px;
+      background: $c-dark;
+    }
+  }
+  .social:hover {
+    &:after {
+      bottom: 20px;
+      transform: rotate(45deg);
+    }
+  }
+
+  //BOTTOM ELEMENTS
+  .footer__bottom-elements {
+    position: relative;
+    width: 100%;
+  }
+  .yls-wrap {
+    margin: auto;
+  }
+  .yls {
+    margin: 20px 0;
+    display: flex;
+  }
+  .yls__made-by {
+    float: left;
+  }
+  .yls__logo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .menu_footer {
+    display: none;
+  }
+}
+
+//END MEDIA

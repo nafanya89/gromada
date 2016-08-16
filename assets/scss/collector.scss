@@ -1,0 +1,57 @@
+/* ========================================================
+                          INCLUDES
+======================================================== */
+@import "includes/i_normalize";
+@import "includes/grid";
+@import "includes/owl.carousel";
+
+/* ========================================================
+                          SETTINGS
+======================================================== */
+@import "settings/s_variables";
+@import "settings/s_mixins";
+@import "settings/s_media";
+@import "settings/s_fonts";
+@import "settings/s_global";
+
+/* ========================================================
+                           PARTS
+======================================================== */
+@import "_w_parts/navigation/navigation_320.scss";
+@import "_w_parts/navigation/navigation_480.scss";
+@import "_w_parts/navigation/navigation_768.scss";
+@import "_w_parts/navigation/navigation_992.scss";
+@import "_w_parts/navigation/navigation_1170.scss";
+
+@import "_w_parts/animations.scss";
+
+/* ========================================================
+                      HEADER / FOOTER
+======================================================== */
+@import "_w_header/header_320";
+@import "_w_header/header_480";
+@import "_w_header/header_768";
+@import "_w_header/header_992";
+@import "_w_header/header_1170";
+
+@import "_w_footer/footer_320";
+@import "_w_footer/footer_480";
+@import "_w_footer/footer_768";
+@import "_w_footer/footer_992";
+@import "_w_footer/footer_1170";
+
+/* ========================================================
+                            PAGES
+======================================================== */
+@import "_w_pages/main/main_320";
+@import "_w_pages/main/main_480";
+@import "_w_pages/main/main_768";
+@import "_w_pages/main/main_992";
+@import "_w_pages/main/main_1170";
+
+// news
+@import "_w_pages/news/news_320";
+@import "_w_pages/news/news_480";
+@import "_w_pages/news/news_768";
+@import "_w_pages/news/news_992";
+@import "_w_pages/news/news_1170";

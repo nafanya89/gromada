@@ -1,0 +1,46 @@
+.main-content
+  .news-title Статті
+  .sort-wrap
+    .sort-text Сортувати за датою:
+    .sort-el
+      p.sort-el__text від
+      input(type="date" value="12.12.2014").sort-el__input
+    .sort-el
+      p.sort-el__text до
+      input(type="date" value="14.12.2014").sort-el__input
+  .news-content
+    .container-fluid
+      - for(i=0; i<6; i++)
+        .col-lg-4
+          .news
+            .news__image(style="background-image: url(../img/1.jpg)")
+            .news__info
+              .news__date 20.20.1002
+              .news__title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської  патріаршої прощі.
+              .news__text На Маріупольському напрямку стріляли по Водяному, Мар’їнці та Красногорівці – з мінометів різних калібрів. У Красногорівці бойовики застосували БМП…
+              a(href="#")
+                .news__button Читати статтю
+                  .news-item__plus
+                    span
+                    span
+    .pagination
+      a(href="#")
+        .pagination__circle
+          .pagination__number 1
+      a(href="#")
+        .pagination__circle
+          .pagination__number 2
+      a(href="#")
+        .pagination__circle
+          .pagination__number 3
+      a(href="#")
+        .pagination__circle
+          .pagination__number 4
+      a(href="#")
+        .pagination__circle
+          .pagination__number 5
+
+
+
+
+

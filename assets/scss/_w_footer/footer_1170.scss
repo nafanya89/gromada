@@ -1,0 +1,17 @@
+@media #{$screen} {
+  //BOTTOM ELEMENTS
+  .menu_footer {
+    display: block;
+    float: right;
+    margin-right: 50px;
+  }
+
+  .yls__made-by {
+    margin-left: 50px;
+  }
+
+
+  .yls {
+    float: left;
+  }
+} //END MEDIA
