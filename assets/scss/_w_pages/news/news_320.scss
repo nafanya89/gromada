@@ -5,13 +5,13 @@
     font-size: $f-large;
     border-bottom: 2px solid $c-dark;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 20px;
     margin: 0 10px;
   }
 
   //SORT
   .sort-wrap {
-
+    margin-top: 20px;
   }
   .sort-text,
   .sort-el,
@@ -32,11 +32,28 @@
     padding: 0 10px;
   }
 
+  .sort-el__input {
+    width: 50px;
+    border: none;
+    color: transparent;
+    text-shadow: 0 0 0 $c-dark;
+    cursor: pointer;
+    padding: 0 5px;
+    border-bottom: 1px solid $c-dark;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .input-append {
+    display: inline-block;
+  }
+
 
 
   // NEWS
   .news-content {
-    margin: 50px auto 0 auto;
+    margin: 10px auto 0 auto;
   }
   .news {
     width: 100%;

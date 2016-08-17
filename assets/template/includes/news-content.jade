@@ -4,10 +4,16 @@
     .sort-text Сортувати за датою:
     .sort-el
       p.sort-el__text від
-      input(type="date" value="12.12.2014").sort-el__input
+      .input-append.date(data-date="12.02" data-date-format="dd-mm")
+        input(type="text" size="16" value="12.02").sort-el__input
+        span.add-on
+          i.icon-th
     .sort-el
       p.sort-el__text до
-      input(type="date" value="14.12.2014").sort-el__input
+      .input-append.date(data-date="12.02" data-date-format="dd-mm")
+        input(type="text" size="16" value="12.02").sort-el__input
+        span.add-on
+          i.icon-th
   .news-content
     .container-fluid
       - for(i=0; i<6; i++)
