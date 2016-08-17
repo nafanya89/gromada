@@ -1,5 +1,8 @@
 @media #{$iPhone} {
-  //TITLE
+  /* ========================================================
+                            Title
+  ======================================================== */
+
   .news-title {
     font-family: $f-pt_sans_bold;
     font-size: $f-large;
@@ -9,15 +12,25 @@
     margin: 0 10px;
   }
 
-  //SORT
+  /* ========================================================
+                            Sort
+  ======================================================== */
+
   .sort-wrap {
     margin-top: 20px;
+    text-align: center;
   }
-  .sort-text,
+  .sort-text {
+    margin: 10px 0;
+  }
   .sort-el,
   .sort-el__input,
   .sort-el__text {
     display: inline-block;
+  }
+
+  .sort-btn {
+    display: none;
   }
 
   .sort-el__text{
@@ -33,28 +46,46 @@
   }
 
   .sort-el__input {
-    width: 50px;
+    position: relative;
+    width: 85px;
     border: none;
     color: transparent;
     text-shadow: 0 0 0 $c-dark;
     cursor: pointer;
-    padding: 0 5px;
+    padding: 0 8px;
     border-bottom: 1px solid $c-dark;
-    &:focus {
-      outline: none;
-    }
   }
 
   .input-append {
     display: inline-block;
   }
 
+  /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+               Input hover
+  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
+
+  .sort-el__input:hover {
+    border-bottom: 1px solid $c-blue;
+    color: $c-blue;
+  }
 
 
-  // NEWS
+    /* ========================================================
+                              News
+    ======================================================== */
+
+  /*------------------------------------
+                News content
+  ------------------------------------*/
+
   .news-content {
     margin: 10px auto 0 auto;
   }
+
+  /*------------------------------------
+                 News item
+  ------------------------------------*/
+
   .news {
     width: 100%;
     max-width: 380px;
@@ -84,7 +115,11 @@
   .news__info {
     padding: 10px;
   }
-    //MORE HOVER
+
+  /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+             News item:hover
+  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
+
   .news__button:hover {
     .news-item__plus span:first-child {
       transform: rotate(-90deg);
@@ -98,7 +133,10 @@
   }
 
 
-  //PAGINATION
+  /* ========================================================
+                          Pagination
+  ======================================================== */
+
   .pagination {
     margin: 0 50px;
   }

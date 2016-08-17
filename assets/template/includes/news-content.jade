@@ -4,16 +4,12 @@
     .sort-text Сортувати за датою:
     .sort-el
       p.sort-el__text від
-      .input-append.date(data-date="12.02" data-date-format="dd-mm")
-        input(type="text" size="16" value="12.02").sort-el__input
-        span.add-on
-          i.icon-th
+      input(type="text").sort-el__input.date-from
+
     .sort-el
       p.sort-el__text до
-      .input-append.date(data-date="12.02" data-date-format="dd-mm")
-        input(type="text" size="16" value="12.02").sort-el__input
-        span.add-on
-          i.icon-th
+      input(type="text").sort-el__input.date-to
+    button.sort-btn asdas
   .news-content
     .container-fluid
       - for(i=0; i<6; i++)

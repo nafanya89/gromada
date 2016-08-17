@@ -1,4 +1,10 @@
 /* ========================================================
+                          SETTINGS
+======================================================== */
+@import "settings/s_variables";
+
+
+/* ========================================================
                           INCLUDES
 ======================================================== */
 @import "includes/i_normalize";
@@ -6,10 +12,10 @@
 @import "includes/owl.carousel";
 @import "includes/datepicker";
 
+
 /* ========================================================
                           SETTINGS
 ======================================================== */
-@import "settings/s_variables";
 @import "settings/s_mixins";
 @import "settings/s_media";
 @import "settings/s_fonts";

@@ -1,8 +1,9 @@
 $(document).ready(function () {
   ///////////////////////
   /*  Slick content   */
-
-  $(".right_content").stick_in_parent();
+  if ($(window).width() > 768) {
+      $(".right_content").stick_in_parent();
+  }
   /////////////////////
   /*    UP-arrow    */
   ///////////////////
