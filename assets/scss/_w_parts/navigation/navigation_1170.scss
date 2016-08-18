@@ -73,4 +73,19 @@
      margin: auto;
      transition: $t-fast;
   }
+
+  /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+             Nav item
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+  .navbar__item.active {
+    text-decoration: none;
+    opacity: 1;
+    color: $c-blue;
+    &:after {
+      transform: rotate(25deg);
+      background: $c-blue;
+      bottom: 25px;
+      opacity: 1;
+    }
+  }
 }
