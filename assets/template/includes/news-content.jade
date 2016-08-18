@@ -9,7 +9,8 @@
     .sort-el
       p.sort-el__text до
       input(type="text").sort-el__input.date-to
-    button.sort-btn asdas
+    form(action="/").sort-form
+      input(type="button" value="Go").sort-btn
   .news-content
     .container-fluid
       - for(i=0; i<6; i++)
