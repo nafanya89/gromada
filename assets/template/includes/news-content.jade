@@ -4,11 +4,11 @@
     .sort-text Сортувати за датою:
     .sort-el
       p.sort-el__text від
-      input(type="text").sort-el__input.date-from
+      input(type="text" readonly).sort-el__input.date-from
 
     .sort-el
       p.sort-el__text до
-      input(type="text").sort-el__input.date-to
+      input(type="text" readonly).sort-el__input.date-to
     form(action="/").sort-form
       input(type="button" value="Go").sort-btn
   .news-content
