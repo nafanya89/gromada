@@ -1,0 +1,50 @@
+.main-content
+    .news-title Рейтинги Фейсбук
+    .add-me
+        span.add-me__text Додати себе:
+        form(action="/").add-me__form
+            input(type="text" placeholder="http://facebook.com/petroporoshenko").add-me__input
+            input(type="submit" value="ЗНАЙТИ").add-me__button
+            input(type="submit" value="ДОДАТИ").add-me__button
+
+    .rating-content
+        .container-fluid
+            -for(i=0; i<10; i++)
+                .col-lg-4
+                    .rating-item
+                        .rating-item__title Петрій Порох
+                        .rating-item__image(style="background-image: url(img/1.jpg)")
+                        .info-box.info-box--first
+                            svg.info-box__icon
+                                use(xlink:href="img/svg-sprites/sprite.svg#icon-case")
+                            .info-box__text Місце роботи:
+                            .info-box__place ad asdasd asd asd asda sd asd
+                        .info-box
+                            svg.info-box__icon
+                                use(xlink:href="img/svg-sprites/sprite.svg#icon-users")
+                            .info-box__text Підписники:
+                            .info-box__place 212321
+                        .info-box
+                            svg.info-box__icon
+                                use(xlink:href="img/svg-sprites/sprite.svg#icon-friend")
+                            .info-box__text Друзі:
+                            .info-box__place 4123432
+                        a(href="#")
+                            .rating-item__view-profile Переглянути профіль
+
+    .pagination
+        a(href="#")
+            .pagination__circle
+                .pagination__number 1
+        a(href="#")
+            .pagination__circle
+                .pagination__number 2
+        a(href="#")
+            .pagination__circle
+                .pagination__number 3
+        a(href="#")
+            .pagination__circle
+                .pagination__number 4
+        a(href="#")
+            .pagination__circle
+                .pagination__number 5

@@ -1,0 +1,87 @@
+@media #{$iPhone} {
+  /* ========================================================
+                            Add me
+  ======================================================== */
+  .add-me {
+    margin: 20px;
+  }
+
+  .add-me__form {
+    display: inline-block;
+  }
+
+  .add-me__input {
+    border: none;
+    border-bottom: 1px solid $c-dark;
+    outline: none;
+    width: 250px;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+
+  .add-me__button {
+    border: none;
+    background: none;
+    color: $c-blue;
+    font-size: $f-small;
+  }
+
+
+  /* ========================================================
+                            Rating item
+  ======================================================== */
+  .col-lg-4 {
+    padding: 5px !important;
+  }
+  .rating-item {
+    position: relative;
+    background: $fon-blog;
+    max-width: 470px !important;
+  }
+  .rating-item__title {
+    font-family: $f-pt_sans_bold;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .rating-item__image {
+    width: calc(100% - 40px);
+    margin: 0 20px 20px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .rating-item__view-profile {
+    display: block;
+    text-transform: uppercase;
+    font-size: $f-small;
+    color: $c-blue;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  /*------------------------------------
+                   Info box
+  ------------------------------------*/
+  .info-box-wrap {
+    margin: 0 auto;
+    display: inline;
+  }
+  .info-box {
+    padding: 0 20px 20px 20px;
+    display: inline-block;
+    margin: auto;
+  }
+  .info-box__icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    fill: $c-dark;
+    opacity: .3;
+  }
+  .info-box__text {
+    opacity: .5;
+    padding-left: 20px;
+    font-size: $f-small;
+  }
+}

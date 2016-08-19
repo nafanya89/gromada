@@ -1,0 +1,11 @@
+include includes/head
+
+body
+    .content
+       .navbar-frame
+           a(href="/")
+               svg.navbar-frame__logo.logo-gromada
+                   use(xlink:href="img/svg-sprites/sprite.svg#icon-logo")
+           .navbar-frame__text Штото там произошло
+        iframe(src="http://report.if.ua/" width="100%").content-frame
+    include includes/scripts
