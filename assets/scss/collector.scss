@@ -1,14 +1,21 @@
 /* ========================================================
+                          SETTINGS
+======================================================== */
+@import "settings/s_variables";
+
+
+/* ========================================================
                           INCLUDES
 ======================================================== */
 @import "includes/i_normalize";
-@import "includes/grid";
+@import "includes/bootstrap.min";
 @import "includes/owl.carousel";
+@import "includes/datepicker";
+
 
 /* ========================================================
                           SETTINGS
 ======================================================== */
-@import "settings/s_variables";
 @import "settings/s_mixins";
 @import "settings/s_media";
 @import "settings/s_fonts";
@@ -17,6 +24,12 @@
 /* ========================================================
                            PARTS
 ======================================================== */
+@import "_w_parts/navigation/navigation_320.scss";
+@import "_w_parts/navigation/navigation_480.scss";
+@import "_w_parts/navigation/navigation_768.scss";
+@import "_w_parts/navigation/navigation_992.scss";
+@import "_w_parts/navigation/navigation_1170.scss";
+
 @import "_w_parts/animations.scss";
 
 /* ========================================================
@@ -42,3 +55,64 @@
 @import "_w_pages/main/main_768";
 @import "_w_pages/main/main_992";
 @import "_w_pages/main/main_1170";
+
+/*------------------------------------
+                 News
+------------------------------------*/
+@import "_w_pages/news/news_320";
+@import "_w_pages/news/news_480";
+@import "_w_pages/news/news_768";
+@import "_w_pages/news/news_992";
+@import "_w_pages/news/news_1170";
+
+/*------------------------------------
+                 One new
+------------------------------------*/
+
+@import "_w_pages/one_new/one-new_320";
+@import "_w_pages/one_new/one-new_480";
+@import "_w_pages/one_new/one-new_768";
+@import "_w_pages/one_new/one-new_992";
+@import "_w_pages/one_new/one-new_1170";
+
+/*------------------------------------
+                 Rating
+------------------------------------*/
+
+@import "_w_pages/rating/rating_320";
+@import "_w_pages/rating/rating_480";
+@import "_w_pages/rating/rating_768";
+@import "_w_pages/rating/rating_992";
+@import "_w_pages/rating/rating_1170";
+
+/*------------------------------------
+                 About_us
+------------------------------------*/
+
+@import "_w_pages/about_us/about_us_320";
+@import "_w_pages/about_us/about_us_480";
+@import "_w_pages/about_us/about_us_768";
+@import "_w_pages/about_us/about_us_992";
+@import "_w_pages/about_us/about_us_1170";
+
+/*------------------------------------
+                 Blogs
+------------------------------------*/
+
+@import "_w_pages/blogs/blogs_320";
+@import "_w_pages/blogs/blogs_480";
+@import "_w_pages/blogs/blogs_768";
+@import "_w_pages/blogs/blogs_992";
+@import "_w_pages/blogs/blogs_1170";
+
+
+/*------------------------------------
+                 One_blog
+------------------------------------*/
+
+@import "_w_pages/one_blog/one_blog_320";
+@import "_w_pages/one_blog/one_blog_480";
+@import "_w_pages/one_blog/one_blog_768";
+@import "_w_pages/one_blog/one_blog_992";
+@import "_w_pages/one_blog/one_blog_1170";
+

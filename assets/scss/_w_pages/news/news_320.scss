@@ -1,0 +1,222 @@
+@media #{$iPhone} {
+  /* ========================================================
+                            Title
+  ======================================================== */
+
+  .news-title {
+    font-family: $f-pt_sans_bold;
+    font-size: $f-large;
+    border-bottom: 2px solid $c-dark;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 10px;
+  }
+
+  /* ========================================================
+                            Sort
+  ======================================================== */
+
+  .sort-wrap {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .sort-text {
+    margin: 10px 0;
+  }
+  .sort-el,
+  .sort-el__input,
+  .sort-el__text {
+    display: inline-block;
+  }
+
+  .sort-btn {
+    display: none;
+    border: none;
+    background: $c-dark;
+    color: $c-light;
+    transition: $t-fast;
+  }
+
+  .sort-form {
+    display: inline-block;
+  }
+
+  .sort-el__text{
+    opacity: 0.5;
+  }
+
+  .sort-el {
+    padding: 0 10px;
+  }
+
+  .sort-text {
+    padding: 0 10px;
+  }
+
+  .sort-el__input {
+    position: relative;
+    width: 85px;
+    border: none;
+    color: transparent;
+    text-shadow: 0 0 0 $c-dark;
+    cursor: pointer;
+    padding: 0 8px;
+    border-bottom: 1px solid $c-dark;
+  }
+
+  .input-append {
+    display: inline-block;
+  }
+
+  /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+               hover
+  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
+
+  .sort-btn:hover {
+    background: $c-blue;
+  }
+
+  .sort-el__input:hover {
+    border-bottom: 1px solid $c-blue;
+    color: $c-blue;
+  }
+
+
+    /* ========================================================
+                              News
+    ======================================================== */
+
+  /*------------------------------------
+                News content
+  ------------------------------------*/
+
+  .news-content {
+    margin: 10px auto 0 auto;
+    .one_blog {
+      margin: 10px 10px 0 0;
+      background: $fon-blog;
+      height: 100%;
+      .quote {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          height: $f-normal;
+          width: $f-normal;
+          fill: $c-blue;
+        }
+      }
+      .article {
+        font-family: $f-pt_sans;
+        font-size: $f-normal;
+        color: $c-dark;
+        p {
+          margin: 0 20px 0 50px;
+        }
+        h3 {
+          font-family: $f-pt_sans;
+          font-size: $f-normal;
+          color: $c-dark;
+          text-align: center;
+          margin: 30px 0 20px;
+        }
+      }
+      .foto_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  /*------------------------------------
+                 News item
+  ------------------------------------*/
+
+  .news {
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+  }
+  .news__image {
+    width: 99%;
+    margin: auto;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+  }
+  .news__date {
+    opacity: .5;
+  }
+  .news__title {
+    font-family: $f-pt_sans_bold;
+    padding: 5px 0;
+  }
+  .news__button {
+    text-transform: uppercase;
+    font-size: $f-small;
+    color: $c-blue;
+    padding: 10px 0;
+    display: inline-block;
+  }
+  .news__info {
+    padding: 10px;
+  }
+
+  /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+             News item:hover
+  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
+
+  .news__button:hover {
+    .news-item__plus span:first-child {
+      transform: rotate(-90deg);
+      left: 4px;
+      width: 11px;
+    }
+    .news-item__plus span:last-child {
+      right: 4px;
+      width: 13px;
+    }
+  }
+
+
+  /* ========================================================
+                          Pagination
+  ======================================================== */
+
+  .pagination {
+    margin: 0 50px;
+  }
+  .pagination a {
+    text-decoration: none;
+  }
+  .pagination__circle {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 10px;
+  }
+  .pagination__number {
+    padding: 5px;
+    font-family: $f-pt_sans_bold;
+  }
+
+  .pagination__circle.pagination__circle--active {
+    border-radius: 50px;
+    background: $c-blue;
+    .pagination__number {
+      color: $c-light;
+    }
+  }
+}

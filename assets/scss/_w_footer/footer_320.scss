@@ -1,150 +1,79 @@
 @media #{$iPhone} {
-  footer {
-    .gray_element {
-      width: 100%;
-      height: 150px;
-      background: $fon-footer;
-      .col-lg-4 {
-        height: 100%;
-        .contain {
-          height: 100%;
-          display: flex;
-          //justify-content: center;
-          align-items: center;
-          padding-left: 30px;
-          p {
-            font-family: $f-pt_sans;
-            font-size: $f-small;
-          }
-        }
-        .cont {
-          height: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          .vk, .fb {
-            margin-left: 5px;
-            margin-right: 5px;
-            a {
-              color: $fon-social;
-              padding-left: 10px;
-              padding-right: 10px;
-              font-family: $f-pt_sans_bold;
-              font-size: $f-large + 10px;
-              transition: $t-fast;
-            }
-            .line {
-              height: 2px;
-              background: $fon-social;
-              margin-top: -10px;
-              transition: $t-fast;
+  .footer {
 
-            }
-            &:hover {
-              a {
-                text-decoration: none;
-                color: $c-blue;
-              }
-              .line {
-                transform: rotate(35deg) translateY(-15px) translateX(-10px);
-                //top: -15px;
-                position: relative;
-                background: #1575b8;
-              }
-            }
-          }
-        }
-        .arrow {
-          width: 100%;
-          height: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          svg {
-            transform: rotate(-90deg);
-            height: $f-large;
-            width: $f-large;
-            fill: $c-dark;
-            transition: $t-fast;
-            &:hover {
-              fill: $c-blue;
-            }
-          }
-        }
-      }
-    }
-    .white_element {
-      height: 70px;
-      .col-lg-4 {
-        height: 100%;
-        .yls_logo {
-          width: 100%;
-          height: 100%;
-          display: flex;
-          //justify-content: center;
-          align-items: center;
-          padding-left: 40px;
-          a {
-            color: $c-dark;
-            position: relative;
-            transition: $t-fast;
-            svg {
-              position: absolute;
-              height: $f-large;
-              width: $f-large;
-              fill: $c-dark;
-              top: -5px;
-              left: 55px;
-              transition: $t-fast;
-            }
-            &:hover {
-              color: $c-blue;
-              text-decoration: none;
-              svg {
-                fill: $c-blue;
-              }
-            }
-          }
-        }
-      }
-      .col-lg-8 {
-        height: 100%;
-        .menu_footer {
-          height: 100%;
-          nav {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            a {
-              font-size: $f-normal;
-              font-family: $f-pt_sans;
-              color: $c-light-gray;
-              margin: 0 25px;
-              transition: $t-fast;
-              .line {
-                height: 1px;
-                width: 150%;
-                margin-left: -25%;
-                background: $c-light-gray;
-                transition: $t-fast;
-              }
-              &:hover {
-                text-decoration: none;
-                color: $c-blue;
-                .line {
-                  transform: rotate(20deg) translateY(-10px);
-                  position: relative;
-                  background: $c-blue;
-                }
-              }
-            }
+  }
 
-          }
-        }
-      }
+
+  //TOP ELEMENTS
+  .footer__top-elements {
+    position: relative;
+    background: $fon-footer;
+    text-align: center;
+    padding: 25px 0 10px 0;
+  }
+  .copyright {
+    margin: 15px;
+  }
+  .arrow-up {
+    padding: 20px;
+  }
+  .arrow-up__icon {
+    width: 25px;
+    height: 20px;
+    transform: rotate(-90deg);
+    fill: $c-dark;
+  }
+  // social
+  .social-box {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .social {
+    display: inline-block;
+    font-size: $f-large;
+    font-family: $f-pt_sans_bold;
+    color: $c-dark;
+    opacity: 1;
+    padding: -0px 15px;
+    &:after {
+      bottom: 0;
+      height: 2px;
+      background: $c-dark;
     }
+  }
+  .social:hover {
+    &:after {
+      bottom: 20px;
+      transform: rotate(45deg);
+    }
+  }
+
+  //BOTTOM ELEMENTS
+  .footer__bottom-elements {
+    position: relative;
+    width: 100%;
+  }
+  .yls-wrap {
+    margin: auto;
+  }
+  .yls {
+    margin: 20px 0;
+    display: flex;
+  }
+  .yls__made-by {
+    float: left;
+  }
+  .yls__logo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .menu_footer {
+    display: none;
   }
 }
 

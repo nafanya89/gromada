@@ -1,0 +1,36 @@
+@media #{$desktop} {
+  /* ========================================================
+                          Navigation
+  ======================================================== */
+  // //~~~~~~~~~~~~~~~~~~   SEARCH BOX  ~~~~~~~~~~~~~~~~~~~~~~~//
+  .search-box {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin: 20px 100px;
+  }
+  .search-box__search {
+    border: none;
+    background: none;
+    border-bottom: 1px solid $c-dark-o;
+    display: inline-block;
+    outline: none;
+    padding: 0 40px 0 10px;
+
+  }
+  .search-box__search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .search-box__search-btn-icon {
+    width: 15px;
+    height: 15px;
+    fill: $c-dark-o;
+  }
+} //END MEDIA

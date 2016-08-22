@@ -1,0 +1,11 @@
+@media #{$phone} {
+
+  /* ========================================================
+                       Navigation Button
+  ======================================================== */
+  //~~~~~~~~~~~~~~~~~~ Navigation button:ACTIVE ~~~~~~~~~~//
+  .navbar-btn--is-active {
+    transition-delay: .5s;
+    right: 150px;
+  }
+} //END MEDIA

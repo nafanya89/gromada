@@ -1,0 +1,91 @@
+@media #{$screen} {
+  /* ========================================================
+                       Navigation Button
+  ======================================================== */
+  .navbar-btn {
+    display: none;
+  }
+  /* ========================================================
+                          Navigation
+  ======================================================== */
+  .navbar {
+    text-align: center;
+    height: 80px;
+    margin-top: 40px;
+    position: relative;
+    display: block;
+    background: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  // //~~~~~~~~~~~~~~~~~~   SEARCH BOX  ~~~~~~~~~~~~~~~~~~~~~~~//
+  .search-box {
+    display: inline-block;
+    margin: auto;
+  }
+  .search-box__search:hover {
+    border-bottom: 1px solid $c-blue;
+    & ~ .search-box__search-btn > .search-box__search-btn-icon  {
+      fill: $c-blue;
+    }
+  }
+  .search-box__search:focus {
+    border-bottom: 1px solid $c-blue;
+    animation: searchDrag $t-fast;
+    & ~ .search-box__search-btn > .search-box__search-btn-icon  {
+      fill: $c-blue;
+      animation: microMove $t-fast;
+    }
+  }
+  //~~~~~~~~~~~~~~~~~~ NAVIGATION MENU ~~~~~~~~~~~~~~~~~~~~~//
+  .navbar__navigation {
+    text-align: center;
+    display: inline-block;
+  }
+  .navbar__item {
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    transition: $t-fast;
+    margin: 0 10px;
+  }
+  .navbar__item:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: $c-blue;
+    &::after {
+      transform: rotate(25deg);
+      background: $c-blue;
+      bottom: 25px;
+      opacity: 1;
+    }
+  }
+  .navbar__item:after {
+     position: absolute;
+     content: "";
+     height: 1px;
+     background-color: $c-dark-o;
+     width: calc(100% - 10px);
+     left: 0;
+     right: 0;
+     bottom: 14px;
+     margin: auto;
+     transition: $t-fast;
+  }
+
+  /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+             Nav item
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+  .navbar__item.active {
+    text-decoration: none;
+    opacity: 1;
+    color: $c-blue;
+    &:after {
+      transform: rotate(25deg);
+      background: $c-blue;
+      bottom: 25px;
+      opacity: 1;
+    }
+  }
+}

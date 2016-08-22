@@ -1,0 +1,135 @@
+@media #{$iPhone} {
+    /* ========================================================
+                         Navigation Button
+    ======================================================== */
+    .navbar-btn {
+      right: 20px;
+      position: absolute;
+      top: 33px;
+      margin: 10px;
+      cursor: pointer;
+      z-index: 99999;
+      transition: $t-fast;
+    }
+    .navbar-btn__text {
+      display: inline-block;
+    }
+    .navbar-btn__icon {
+      position: relative;
+      display: inline-block;
+      width: 25px;
+      height: 11px;
+    }
+
+    .navbar-btn__icon span {
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: $c-dark;
+      transition: $t-fast;
+    }
+
+    .navbar-btn__icon span:nth-child(1) {
+      top: 0;
+    }
+    .navbar-btn__icon span:nth-child(2) {
+      top: 5px;
+    }
+    .navbar-btn__icon span:nth-child(3) {
+      top: 10px;
+    }
+
+    //~~~~~~~~~~~~~~~~~~ Navigation button:ACTIVE ~~~~~~~~~~//
+    .navbar-btn--is-active {
+      transition-delay: .5s;
+      right: calc(50% - 50px);
+      .navbar-btn__icon span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 5px;
+        width: 75%;
+      }
+      .navbar-btn__icon span:nth-child(2) {
+        opacity: 0;
+      }
+      .navbar-btn__icon span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 5px;
+        width: 75%;
+      }
+    }
+
+    /* ========================================================
+                            Navigation
+    ======================================================== */
+
+    .navbar {
+      display: none;
+      position: absolute;
+      background: $fon-footer;
+      top: 0;
+      padding-top: 70px;
+      right: 0;
+      z-index: 9999;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    // //~~~~~~~~~~~~~~~~~~   SEARCH BOX  ~~~~~~~~~~~~~~~~~~~~~~~//
+    .search-box {
+      display: none;
+    }
+
+
+
+    //~~~~~~~~~~~~~~~~~~ NAVIGATION MENU ~~~~~~~~~~~~~~~~~~~~~//
+    .navbar__navigation {
+      text-align: center;
+    }
+    .navbar__item {
+      display: block;
+      padding: 15px 0;
+      opacity: .7;
+    }
+
+
+    /* ========================================================
+                            Navigation END
+    ======================================================== */
+  
+  
+  
+  /* ========================================================
+                            Navigationframe
+  ======================================================== */
+  .navbar-frame {
+    background: $fon-blog;
+    border-bottom: 1px solid $c-dark-o;
+    height: 77px;
+  }
+
+  .navbar-frame__logo {
+    float: left;
+    height: 77px !important;
+    padding: 0 !important;
+    margin-left: 40px !important;
+    width: 200px !important;
+  }
+
+  .navbar-frame__text {
+    display: inline-block;
+    font-family: $f-pt_sans_bold;
+    padding: 29px 20px;
+  }
+
+  .content-frame {
+    position: fixed;
+    top: 77px;
+    left: 0;
+    border: 0;
+    height: calc(100% - 77px);
+  }
+  .content {
+    height: 100% !important;
+  }
+  
+}

@@ -1,0 +1,34 @@
+.main-content
+  .news-title Блоги
+  .sort-wrap
+    .sort-text Сортувати за датою:
+    .sort-el
+      p.sort-el__text від
+      input(type="text" readonly).sort-el__input.date-from
+
+    .sort-el
+      p.sort-el__text до
+      input(type="text" readonly).sort-el__input.date-to
+    form(action="/").sort-form
+      input(type="button" value="Go").sort-btn
+  .news-content
+    .container-fluid
+      - for(i=0; i<6; i++)
+        .col-lg-4
+          include one_blog
+    .pagination
+      a(href="#")
+        .pagination__circle
+          .pagination__number 1
+      a(href="#")
+        .pagination__circle
+          .pagination__number 2
+      a(href="#")
+        .pagination__circle
+          .pagination__number 3
+      a(href="#")
+        .pagination__circle
+          .pagination__number 4
+      a(href="#")
+        .pagination__circle
+          .pagination__number 5

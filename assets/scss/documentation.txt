@@ -33,10 +33,12 @@ Working folders. Most useful scss folders in project.
 ======================================================== */
 
 /* - - - - - - - - - Sub title here - - - - - - - - - - - */
-//~~~~~~~~~~~~~~~~~~ Sub title here ~~~~~~~~~~~~~~~~~~~~~//     - subtitles
+/*
+                     Sub title here
+                                                          */     - subtitles
 
-//USAGE => - describe how to use technology
+//usage => - describe how to use technology
 
-//ADDITON => - more information about thing
+//addition => - more information about thing
 
 //Text - mini describe

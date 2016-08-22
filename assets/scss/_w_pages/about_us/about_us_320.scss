@@ -1,0 +1,33 @@
+@media #{$iPhone} {
+  .about_us {
+    .title {
+      font-family: $f-pt_sans_bold;
+      font-size: $f-large;
+      color: $fon-social;
+      margin: 0;
+      padding:20px;
+      .line {
+        height: 2px;
+        background: $fon-social;
+        width: 120px;
+        margin-left: -10px;
+        margin-top:-8px;
+      }
+    }
+    .description {
+      padding: 60px 100px;
+      p {
+        font-family: $f-pt_sans;
+        font-size: $f-normal;
+        color: $fon-social;
+        margin: 0;
+      }
+      h4 {
+        font-family: $f-pt_sans_bold;
+        font-size: $f-large;
+        color: $fon-social;
+        margin: 20px 0;
+      }
+    }
+  }
+}

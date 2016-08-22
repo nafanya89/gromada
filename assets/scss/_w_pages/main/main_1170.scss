@@ -1,11 +1,21 @@
 @media #{$screen} {
   .content {
     .right_content {
-      .right_header {
-        .menu_on_laptop {
-          display: block;
-        }
-      }
+      width: calc(100% - 400px);
+      float: right;
     }
   }
+
+  /*SLIDER*/
+  .slider-wrap {
+    .slider {
+      width: 70%;
+    }
+    /*SLIDER CONTENT*/
+    .slider-right-side {
+      width: calc(30% - 20px);
+    }
+  }
+
+
 } //END MEDIA

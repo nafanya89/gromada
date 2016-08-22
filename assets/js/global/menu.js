@@ -1,18 +1,23 @@
-$(document).ready(function () {
-  $(function () {
-    var pull = $('#pull');
-    menu = $('nav ul');
-    menuHeight = menu.height();
-    $(pull).on('click', function (e) {
-      e.preventDefault();
-      menu.slideToggle();
-    });
+/* ========================================================
+                        MENU
+======================================================== */
 
-    $(window).resize(function () {
-      var w = $(window).width();
-      if (w > 970 && menu.is(':hidden')) {
-        menu.removeAttr('style');
-      }
-    });
-  });
+//~~~~~~~~~~~~~~~~~~ VARRIABLES ~~~~~~~~~~//
+var menuBtn = $('.navbar-btn'),
+    navbar = $('.navbar'),
+
+    //MODIFIERS
+    menuBtnIsActive = 'navbar-btn--is-active';
+
+
+//~~~~~~~~~~~~~~~~~~ FUNCTIONS ~~~~~~~~~~//
+function menuToggle() {
+  $(menuBtn).stop().toggleClass(menuBtnIsActive);
+  $(navbar).stop().slideToggle();
+};
+
+//~~~~~~~~~~~~~~~~~~ EVENTS ~~~~~~~~~~//
+
+$(menuBtn).click(function() {
+  menuToggle();
 });

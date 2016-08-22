@@ -4,8 +4,13 @@
 body {
     font-family: $f-pt_sans;
     color: $c-dark;
+    fill: $c-dark;
 }
 
 a {
     color: $c-dark;
+}
+
+a:active {
+    text-decoration: none;
 }

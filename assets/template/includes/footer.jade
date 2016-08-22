@@ -1,5 +1,27 @@
-script(src="js/libs/jquery.min.js")
-script(src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.7" async type="text/javascript")
-script(src="js/libs/sticky-kit.min.js")
-script(src="js/libs/owl.carousel.min.js")
-script(src="js/common.min.js")
+footer.footer
+    .footer__top-elements
+        .container-fluid
+            .col-lg-4.col-md-12
+                p.copyright © 2016 «Громада». Усі права застережені.
+            .col-lg-4.col-md-6
+                .social-box
+                    a(href="#").social.navbar__item Вк
+                    a(href="#").social.navbar__item Fb
+            .col-lg-4.col-md-6
+                .arrow-up
+                    a(href="#")
+                        svg.arrow-up__icon
+                            use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+    .footer__bottom-elements.clearfix
+        .yls
+            a(href="yleaf.co").yls-wrap
+                .yls__made-by Made by
+                svg.yls__logo
+                    use(xlink:href="img/svg-sprites/sprite.svg#icon-Yls")
+        .menu_footer
+            nav
+                a(href="").navbar__item Головна
+                a(href="").navbar__item Статті
+                a(href="").navbar__item Блоги
+                a(href="").navbar__item Рейтинги
+                a(href="").navbar__item Про нас

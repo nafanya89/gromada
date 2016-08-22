@@ -10,189 +10,12 @@
       z-index: 999999999;
     }
   }
+
+
   .content {
     height: auto;
     .right_content {
       height: auto;
-      width: calc(75%);
-      float: right;
-      .right_header {
-        height: 150px;
-        .menu_on_laptop {
-          height: 100%;
-          display: none;
-          .row {
-            height: 100%;
-          }
-          .search {
-            position: relative;
-            display: table;
-            top: 50%;
-            left: 30%;
-            transform: translateY(-50%);
-            input {
-              width: 200px;
-              float: left;
-              border: none;
-              border-bottom: 1px solid $c-light-gray;
-              font-size: $f-normal;
-              font-family: $f-pt_sans;
-              color: $c-light-gray;
-              padding: 3px 5px;
-              transition: $t-fast;
-              &:focus {
-                outline: none;
-              }
-            }
-            button {
-              padding: 0;
-              border: none;
-              background: none;
-              position: absolute;
-              top: 8%;
-              margin-left: -28px;
-              z-index: 1;
-              color: #4f5b66;
-              svg {
-                width: 20px;
-                height: 22px;
-                fill: $c-light-gray;
-                transition: $t-fast;
-              }
-            }
-            &:hover {
-              input {
-                border-bottom: 1px solid $c-blue;
-                color: $c-blue;
-              }
-              button {
-                svg {
-                  fill: $c-blue;
-                }
-              }
-            }
-          }
-          .menu_header {
-            height: 100%;
-            nav {
-              width: 100%;
-              height: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              a {
-                font-size: $f-normal;
-                font-family: $f-pt_sans;
-                color: $c-light-gray;
-                margin: 0 25px;
-                transition: $t-fast;
-                .line {
-                  height: 1px;
-                  width: 150%;
-                  margin-left: -25%;
-                  margin-top: 0;
-                  background: $c-light-gray;
-                  transition: $t-fast;
-                  border: none;
-                }
-                &:hover {
-                  text-decoration: none;
-                  color: $c-blue;
-                  .line {
-                    transform: rotate(20deg) translateY(-10px);
-                    position: relative;
-                    background: $c-blue;
-                  }
-                }
-              }
-
-            }
-          }
-        }
-      }
-
-      .slider {
-        /*CLEARFIX*/
-        .cf:before,
-        .cf:after {
-          content: " "; /* 1 */
-          display: table; /* 2 */
-        }
-        .cf:after {
-          clear: both;
-        }
-        /**
-         * For IE 6/7 only
-         * Include this rule to trigger hasLayout and contain floats.
-         */
-        .cf {
-          *zoom: 1;
-        }
-        /*SLIDER*/
-        .slider-wrap {
-          position: relative;
-          width: 700px;
-          background: rgba(0, 0, 0, .1);
-        }
-
-        .owl-nav {
-          position: absolute;
-          right: -40px;
-          top: 0;
-        }
-
-        .slider {
-          float: left;
-          width: 400px;
-          margin: 0;
-        }
-        .slider__image {
-          width: auto;
-          height: 500px;
-          background-size: cover;
-          background-repeat: no-repeat;
-        }
-
-        /*SLIDER CONTENT*/
-        .slider-content {
-          float: left;
-          text-align: left;
-          margin-left: 20px;
-          width: 200px;
-          right: 0;
-          top: 0;
-        }
-
-        .slider-content__title {
-          font-size: 24px;
-          margin: 10px 0;
-        }
-
-        .slider-content__wrap {
-          position: relative;
-          left: 0;
-        }
-
-        /*CUTOM NAV*/
-        .customNavigation {
-          position: absolute;
-          right: 0;
-          bottom: 0;
-        }
-        .customPrevBtn,
-        .customNextBtn {
-          display: inline-block;
-          width: 25px;
-          height: 25px;
-
-        }
-        .customNextBtn {
-          background: green;
-        }
-        .customPrevBtn {
-          background: red;
-        }
-      }
       .blogs {
         .article {
           margin: 0 0 20px;
@@ -210,49 +33,50 @@
           }
         }
         .one_blog {
-          background: $fon-blog;
-          height: 100%;
-          .quote {
-            width: 100%;
-            height: 80px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            svg {
-              height: $f-normal;
-              width: $f-normal;
-              fill: $c-blue;
-            }
-          }
-          .article {
-            font-family: $f-pt_sans;
-            font-size: $f-normal;
-            color: $c-dark;
-            p {
-              margin: 0 20px 0 50px;
-            }
-            h3 {
-              font-family: $f-pt_sans;
-              font-size: $f-normal;
-              color: $c-dark;
-              text-align: center;
-              margin: 30px 0 20px;
-            }
-          }
-          .foto_img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+           margin: 10px 10px 0 0;
+           background: $fon-blog;
+           height: 100%;
+           .quote {
+             width: 100%;
+             height: 80px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             svg {
+               height: $f-normal;
+               width: $f-normal;
+               fill: $c-blue;
+             }
+           }
+           .article {
+             font-family: $f-pt_sans;
+             font-size: $f-normal;
+             color: $c-dark;
+             p {
+               margin: 0 20px 0 50px;
+             }
+             h3 {
+               font-family: $f-pt_sans;
+               font-size: $f-normal;
+               color: $c-dark;
+               text-align: center;
+               margin: 30px 0 20px;
+             }
+           }
+           .foto_img {
+             display: flex;
+             justify-content: center;
+             align-items: center;
 
-            img {
-              width: 100px;
-              height: 100px;
-              border-radius: 50%;
-              text-align: center;
-              margin-bottom: 50px;
-            }
-          }
-        }
+             img {
+               width: 100px;
+               height: 100px;
+               border-radius: 50%;
+               text-align: center;
+               margin-bottom: 50px;
+             }
+           }
+         }
         .adword {
           height: 393.333px;
           img {
@@ -261,7 +85,7 @@
           }
         }
         .two_line {
-          margin-top: 20px;
+          margin-top: 10px;
 
         }
       }
@@ -274,9 +98,9 @@
             font-size: $f-large;
             .line {
               width: 50%;
-              height: 1px;
+              height: 2px;
               background: $c-dark;
-              margin: -9px auto 20px;
+              margin: 0 auto 20px;
             }
           }
 
@@ -331,13 +155,12 @@
     }
     .slider {
       float: left;
-      width: 70%;
+      width: 100%;
       margin: 0;
     }
     .slider__image {
       width: auto;
       height: 400px;
-
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -346,7 +169,8 @@
     .slider-right-side {
       position: relative;
       display: inline-block;
-      width: calc(30% - 20px);
+      // width: calc(30% - 20px);
+      width: 100%;
       padding: 10px;
     }
     .slider-title {
@@ -358,7 +182,7 @@
     }
     .slider-content {
       text-align: left;
-      margin-left: 20px;
+      // margin-left: 20px;
       width: 100%;
       right: 0;
       top: 0;
@@ -374,9 +198,11 @@
     /*CUTOM NAV*/
     .customNavigation {
       position: absolute;
-      right: 20px;
-      bottom: 10%;
+      right: 0;
+      bottom: -20px;
+      padding: 20px 0;
       user-select: none;
+      z-index: 9999;
     }
     .customPrevBtn,
     .customNextBtn {
@@ -427,4 +253,7 @@
       }
     }
   }
+
+
+
 }

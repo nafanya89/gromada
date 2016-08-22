@@ -1,18 +1,12 @@
 @media #{$iPhone} {
-  .content {
-    .news_content {
-      width: 25%;
-      float: left;
-      border-right: 1px solid $color-border;
-      .logo {
-        width: 100%;
-        height: 150px;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
+  //logo
+  .logo {
+    background: $fon-footer;
+  }
+  .logo-gromada {
+    width: 220px;
+    height: 100px;
+    padding: 20px;
   }
 
   /*
@@ -111,6 +105,8 @@
   //ACTIVE GARMOSHKA
   .news-item-wrap--active {
       background: $fon-footer;
+      border-bottom: 1px solid $c-dark-o;
+      border-top: 1px solid $c-dark-o;
       .news-item__related-news-button:hover {
           .news-item__plus span:first-child {
               transform: rotate(-45deg);
@@ -121,5 +117,17 @@
                width: 12px;
           }
       }
+  }
+
+  /*------------------------------------
+                   ADVERTISE
+  ------------------------------------*/
+  .advertise {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    background-size: cover;
+    background-position: center center;
+
   }
 } //END MEDIA
