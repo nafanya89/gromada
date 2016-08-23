@@ -91,7 +91,12 @@
   ------------------------------------*/
 
   .news-content {
-    margin: 10px auto 0 auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .material-sizer {
+    width: 380px;
   }
 
   /*------------------------------------
@@ -99,12 +104,12 @@
   ------------------------------------*/
 
   .news {
-    width: 100%;
-    max-width: 380px;
-    margin: auto;
+    width: 380px;
+    padding: 0 10px;
+    margin: 10px 0;
   }
   .news__image {
-    width: 99%;
+    width: 100%;
     margin: auto;
     background-position: center center;
     background-size: cover;
@@ -173,5 +178,27 @@
     .pagination__number {
       color: $c-light;
     }
+  }
+
+  /*------------------------------------
+               Prev/Next pages
+  ------------------------------------*/
+  .prev-page,
+  .next-page {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    transition: $t-fast;
+  }
+
+  .prev-page {
+    transform: rotate(180deg);
+  }
+
+  .prev-page:hover,
+  .next-page:hover {
+    fill: $c-blue;
   }
 }

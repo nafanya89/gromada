@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    $('.news-content').masonry({
+        // options...
+        itemSelector: '.news',
+        columnWidth: '.material-sizer',
+        isFitWidth: true
+    });
   ///////////////////////
   /*  Slick content   */
   if ($(window).width() > 768) {

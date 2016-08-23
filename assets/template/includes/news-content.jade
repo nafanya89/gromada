@@ -12,36 +12,42 @@
     form(action="/").sort-form
       input(type="button" value="Go").sort-btn
   .news-content
-    .container-fluid
-      - for(i=0; i<6; i++)
-        .col-lg-4
-          .news
-            .news__image(style="background-image: url(../img/1.jpg)")
-            .news__info
-              .news__date 20.20.1002
-              .news__title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської  патріаршої прощі.
-              .news__text На Маріупольському напрямку стріляли по Водяному, Мар’їнці та Красногорівці – з мінометів різних калібрів. У Красногорівці бойовики застосували БМП…
-              a(href="#")
-                .news__button Читати статтю
-                  .news-item__plus
-                    span
-                    span
-    .pagination
-      a(href="#")
-        .pagination__circle
-          .pagination__number 1
-      a(href="#")
-        .pagination__circle
-          .pagination__number 2
-      a(href="#")
-        .pagination__circle
-          .pagination__number 3
-      a(href="#")
-        .pagination__circle
-          .pagination__number 4
-      a(href="#")
-        .pagination__circle
-          .pagination__number 5
+    .material-sizer
+    - for(i=0; i<6; i++)
+      .news
+        .news__image(style="background-image: url(../img/1.jpg)")
+        .news__info
+          .news__date 20.20.1002
+          .news__title Сьогодні, 29 липня в Івано-Франківську відбулася прес-конференція з нагоди Всеукраїнської  патріаршої прощі.
+          .news__text На Маріупольському напрямку стріляли по Водяному, Мар’їнці та Красногорівці – з мінометів різних калібрів. У Красногорівці бойовики застосували БМП…
+          a(href="#")
+            .news__button Читати статтю
+              .news-item__plus
+                span
+                span
+  .pagination
+    a(href="#")
+      svg.prev-page
+        use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+    a(href="#")
+      .pagination__circle.pagination__circle--active
+        .pagination__number 1
+    a(href="#")
+      .pagination__circle
+        .pagination__number 2
+    a(href="#")
+      .pagination__circle
+        .pagination__number 3
+    a(href="#")
+      .pagination__circle
+        .pagination__number 4
+    a(href="#")
+      .pagination__circle
+        .pagination__number 5
+    a(href="#")
+      svg.next-page
+        use(xlink:href="img/svg-sprites/sprite.svg#icon-right-arrow")
+
 
 
 
