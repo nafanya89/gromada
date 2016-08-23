@@ -5,6 +5,13 @@ $(document).ready(function () {
         columnWidth: '.material-sizer',
         isFitWidth: true
     });
+
+    $('.related-news').masonry({
+        // options...
+        itemSelector: '.news',
+        columnWidth: '.material-sizer',
+        isFitWidth: true
+    });
   ///////////////////////
   /*  Slick content   */
   if ($(window).width() > 768) {
